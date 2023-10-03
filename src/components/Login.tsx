@@ -22,7 +22,7 @@ const Login = () => {
         <input type="hidden" name="redirectTo" value={from} />
         <label>
           <p>Username</p>
-          <input name="username" type="text" />
+          <input autoFocus name="username" type="text" />
         </label>
         <label>
           <p>Password</p>
